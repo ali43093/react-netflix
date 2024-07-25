@@ -21,7 +21,7 @@ const Index: React.FC = () => {
 
   return (
     <nav className="fixed top-0 z-[1000] flex flex-row justify-between items-center w-full bg-black text-white px-5 md:px-8 py-3 gap-x-8">
-      <img src="/public/assets/logo1.svg" alt="logo" width={100} height={100} />
+      <img src="/assets/logo1.svg" alt="logo" width={100} height={100} />
 
       <div className="md:hidden flex items-center">
         <Search />

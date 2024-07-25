@@ -25,7 +25,7 @@ const Hero: React.FC = () => {
       <div className="z-5 absolute bottom-[-60px] w-full h-[120px] bg-gradient-to-t from-transparent via-black to-transparent" />
       <div className="absolute z-30 flex flex-col gap-y-3 bottom-0 translate-x-10 -translate-y-[100px]">
         <div className=" md:w-[300px] lg:w-[400px]">
-          <img  src="../../public/assets/bannerPng.png" alt="" />
+          <img  src="/assets/bannerPng.png" alt="" />
         </div>
         <div className="flex items-center justify-center gap-x-3">
           <PlayButton text="Play" className=" bg-black bottom-0" />
